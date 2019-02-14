@@ -1,0 +1,1547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="amivoiceThai" groupId="amivoiceThai" version="0.0.1-SNAPSHOT" type="war"/>
+    <configuration skip="false" quiet="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="true" failBuildInCaseOfDifferentContentConflict="false" failBuildInCaseOfEqualContentConflict="false" failBuildInCaseOfConflict="false" printEqualFiles="false" preferLocal="true" includeBootClasspath="false" bootClasspathProperty="sun.boot.class.path" includePomProjects="false" useDefaultResourceIgnoreList="true" useDefaultClassIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="/Users/scb/amivoiceThai/target/duplicate-finder-result.xml">
+        <ignoredResourcePatterns/>
+        <ignoredClassPatterns/>
+        <conflictingDependencies>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="true" bootClasspath="false">
+                <dependencies>
+                    <dependency artifactId="asm" groupId="org.ow2.asm" type="jar"/>
+                    <dependency artifactId="accessors-smart" groupId="net.minidev" type="jar"/>
+                </dependencies>
+                <packages/>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+        </conflictingDependencies>
+        <ignoredDependencies/>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="content-different" failed="false">
+            <conflicts>
+                <conflict name="javax.xml.stream:stax-api:1.0-2, stax:stax-api:1.0.1">
+                    <conflictResults>
+                        <conflictResult name="javax.xml.stream.EventFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryConfigurationError" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryFinder" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.Location" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.StreamFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLInputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLOutputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLReporter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLResolver" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamConstants" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamException" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Attribute" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Characters" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Comment" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.DTD" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityReference" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Namespace" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.NotationDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.ProcessingInstruction" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.XMLEvent" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.EventReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.StreamReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventAllocator" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventConsumer" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+                <ignoredClassPattern>module-info</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes">
+                <classpathElement name="javax.xml.stream.EventFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryConfigurationError">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryFinder">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.Location">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.StreamFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLInputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLOutputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLReporter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLResolver">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamConstants">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamException">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Attribute">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Characters">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Comment">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.DTD">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityReference">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Namespace">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.NotationDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.ProcessingInstruction">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.XMLEvent">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.EventReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.StreamReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventAllocator">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventConsumer">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+            </classpathElements>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="runtime" conflictState="content-different" failed="false">
+            <conflicts>
+                <conflict name="javax.xml.stream:stax-api:1.0-2, stax:stax-api:1.0.1">
+                    <conflictResults>
+                        <conflictResult name="javax.xml.stream.EventFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryConfigurationError" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryFinder" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.Location" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.StreamFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLInputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLOutputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLReporter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLResolver" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamConstants" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamException" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Attribute" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Characters" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Comment" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.DTD" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityReference" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Namespace" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.NotationDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.ProcessingInstruction" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.XMLEvent" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.EventReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.StreamReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventAllocator" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventConsumer" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+                <ignoredClassPattern>module-info</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes">
+                <classpathElement name="javax.xml.stream.EventFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryConfigurationError">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryFinder">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.Location">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.StreamFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLInputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLOutputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLReporter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLResolver">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamConstants">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamException">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Attribute">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Characters">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Comment">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.DTD">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityReference">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Namespace">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.NotationDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.ProcessingInstruction">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.XMLEvent">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.EventReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.StreamReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventAllocator">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventConsumer">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+            </classpathElements>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="test" conflictState="content-different" failed="false">
+            <conflicts>
+                <conflict name="javax.xml.stream:stax-api:1.0-2, stax:stax-api:1.0.1">
+                    <conflictResults>
+                        <conflictResult name="javax.xml.stream.EventFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryConfigurationError" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.FactoryFinder" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.Location" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.StreamFilter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLEventWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLInputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLOutputFactory" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLReporter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLResolver" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamConstants" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamException" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamReader" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.XMLStreamWriter" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Attribute" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Characters" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Comment" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.DTD" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EndElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.EntityReference" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.Namespace" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.NotationDeclaration" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.ProcessingInstruction" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartDocument" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.StartElement" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.events.XMLEvent" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.EventReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.StreamReaderDelegate" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventAllocator" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="javax.xml.stream.util.XMLEventConsumer" type="classes" excepted="false" failed="false" printed="true" conflictState="content-different">
+                            <conflictNames>
+                                <conflictName name="javax.xml.stream:stax-api:1.0-2" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="javax.xml.stream" version="1.0-2" versionRange="1.0-2" type="jar"/>
+                                </conflictName>
+                                <conflictName name="stax:stax-api:1.0.1" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="stax-api" groupId="stax" version="1.0.1" versionRange="1.0.1" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+                <ignoredClassPattern>module-info</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes">
+                <classpathElement name="javax.xml.stream.EventFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryConfigurationError">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.FactoryFinder">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.Location">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.StreamFilter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLEventWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLInputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLOutputFactory">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLReporter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLResolver">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamConstants">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamException">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamReader">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.XMLStreamWriter">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Attribute">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Characters">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Comment">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.DTD">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EndElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.EntityReference">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.Namespace">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.NotationDeclaration">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.ProcessingInstruction">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartDocument">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.StartElement">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.events.XMLEvent">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.EventReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.StreamReaderDelegate">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventAllocator">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+                <classpathElement name="javax.xml.stream.util.XMLEventConsumer">
+                    <file>/Users/scb/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</file>
+                    <file>/Users/scb/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</file>
+                </classpathElement>
+            </classpathElements>
+            <classpathElements type="resources"/>
+        </result>
+    </results>
+</duplicate-finder-result>
