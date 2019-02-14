@@ -14,10 +14,11 @@ Login success
     แสดงหน้าแรก
 
 *** Keywords ***
-# ต้องแสดงหน้า welcome
+#ต้องแสดงหน้า welcome
+# แสดงหน้าแรก
 #     Wait Until Page Contains   TODO in workshop
 
-login ด้วยผู้ใช้งานชื่อ somkiat
+แสดงหน้าแรก
     # Input Text   id=user  somkiat
     # Input Text   id=pin  12345678789
     Click Button   Get Started
