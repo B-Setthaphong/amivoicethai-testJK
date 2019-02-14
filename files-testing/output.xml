@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190214 23:14:14.194" generator="Robot 3.1.1 (Python 2.7.10 on darwin)">
+<suite source="/Users/scb/amivoiceThai/files-testing/UITest.robot" id="s1" name="UITest">
+<test id="s1-t1" name="Login success">
+<kw name="เข้ามาหน้าแรก">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190214 23:14:14.374" level="INFO">Opening browser 'opera' to base url 'http://localhost:8088/amivoiceThai/'.</msg>
+<status status="PASS" endtime="20190214 23:14:18.367" starttime="20190214 23:14:14.373"></status>
+</kw>
+<status status="PASS" endtime="20190214 23:14:18.368" starttime="20190214 23:14:14.372"></status>
+</kw>
+<kw name="แสดงหน้าแรก">
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>Get Started</arg>
+</arguments>
+<msg timestamp="20190214 23:14:18.370" level="INFO">Clicking link 'Get Started'.</msg>
+<status status="PASS" endtime="20190214 23:14:18.511" starttime="20190214 23:14:18.369"></status>
+</kw>
+<status status="PASS" endtime="20190214 23:14:18.511" starttime="20190214 23:14:18.368"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190214 23:14:18.649" starttime="20190214 23:14:18.512"></status>
+</kw>
+<status status="PASS" endtime="20190214 23:14:18.649" critical="yes" starttime="20190214 23:14:14.370"></status>
+</test>
+<status status="PASS" endtime="20190214 23:14:18.651" starttime="20190214 23:14:14.203"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="UITest" pass="1">UITest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

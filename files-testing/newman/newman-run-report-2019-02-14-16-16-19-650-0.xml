@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="training jenkins" tests="1" time="3.401">
+  <testsuite name="https://jsonplaceholder.typicode.com/users" id="cebce567-30df-4ab5-b13f-f0fc5a0c3676" timestamp="2019-02-14T16:16:16.133Z" classname="https://jsonplaceholder.typicode.com/users" tests="3" failures="0" errors="0" time="3.401">
+    <testcase name="Status code is 200" time="3.401"/>
+    <testcase name="Your test name" time="3.401"/>
+    <testcase name="Successful POST request" time="3.401"/>
+  </testsuite>
+</testsuites>

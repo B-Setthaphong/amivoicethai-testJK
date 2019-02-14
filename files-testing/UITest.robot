@@ -8,7 +8,7 @@ ${BROWSER}   opera
 
 *** Test Case ***
 Login success
-    # เข้ามาหน้า login
+    เข้ามาหน้าแรก
     # login ด้วยผู้ใช้งานชื่อ somkiat
     # ต้องแสดงหน้า welcome
     แสดงหน้าแรก
@@ -21,8 +21,8 @@ Login success
 แสดงหน้าแรก
     # Input Text   id=user  somkiat
     # Input Text   id=pin  12345678789
-    Click Button   Get Started
+    Click Link   Get Started
 
-เข้ามาหน้า login
+เข้ามาหน้าแรก
     Open Browser   ${URL}
     ...  browser=${BROWSER}
