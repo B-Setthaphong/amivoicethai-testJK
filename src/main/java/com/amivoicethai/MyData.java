@@ -1,4 +1,4 @@
-package amivoiceThai;
+package com.amivoicethai;
 
 import java.util.Random;
 

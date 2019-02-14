@@ -6,7 +6,7 @@ import java.util.Random;
 
 import org.junit.Test;
 
-import amivoiceThai.MyData;
+import com.amivoicethai.MyData;
 
 public class TestUtility {  
 
